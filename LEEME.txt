@@ -1,0 +1,23 @@
+ARUMA | Boutique del Mate - primera versión
+
+CÓMO VER LA PÁGINA
+1. Descomprimí el archivo ZIP.
+2. Abrí la carpeta aruma-boutique-mate.
+3. Hacé doble clic en index.html para abrirla en el navegador.
+   Recomendado: abrir la carpeta desde Visual Studio Code y usar la extensión Live Server.
+
+QUÉ INCLUYE
+- Diseño responsive para computadora y celular.
+- Identidad visual y logotipos proporcionados.
+- Categorías y filtros de productos.
+- Catálogo de demostración.
+- Carrito con cantidades y total estimado.
+- Preparación de pedido para enviar por WhatsApp.
+
+ANTES DE PUBLICAR
+- Reemplazar los productos, precios e imágenes de ejemplo por los reales.
+- Configurar el número de WhatsApp del comercio en los enlaces wa.me del index.html y script.js.
+- Agregar dirección, horarios, redes sociales y políticas de envío/devolución.
+- Para cobrar online y administrar inventario hace falta integrar una plataforma de pagos y una base de datos/backend.
+
+Esta versión es un prototipo frontend. No procesa pagos ni guarda pedidos en un servidor.

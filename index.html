@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#06351d">
+  <meta name="description" content="ARUMA Boutique del Mate. Yerbas, mates, bombillas, termos, hierbas y accesorios para disfrutar el ritual matero.">
+  <title>ARUMA | Boutique del Mate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" type="image/png" href="assets/aruma-isotipo.jpeg">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">Tu mate, tu ritual</div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="ARUMA, inicio">
+      <img src="assets/aruma-isotipo.jpeg" alt="Isotipo de ARUMA">
+      <span><strong>ARUMA</strong><small>BOUTIQUE DEL MATE</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#inicio">Inicio</a><a href="#categorias">Categorías</a><a href="#destacados">Productos</a><a href="#nosotros">Nosotros</a>
+    </nav>
+    <button class="cart-button" id="openCart" aria-label="Abrir carrito">Carrito <span id="cartCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <h1>El ritual de todos los días.</h1>
+        <p>Mates, bombillas y accesorios te esperan para armar tu combo perfecto.</p>
+        <div class="hero-actions"><a class="button button-light" href="#destacados">Explorar productos</a><a class="text-link" href="#categorias">Conocer categorías <span>↗</span></a></div>
+      </div>
+      <div class="hero-art" aria-label="Identidad de ARUMA">
+        <img src="assets/arumalogo.png" alt="ARUMA Boutique del Mate">
+      </div>
+      
+    </section>
+
+    <section class="intro section-wrap">
+      <h2>Todo lo que necesitás<br>para tu momento.</h2>
+      <p class="intro-text">Una selección de yerbas, mates, bombillas, hierbas y accesorios para acompañar cada cebada.</p>
+    </section>
+
+    <section class="categories section-wrap" id="categorias">
+      
+      <div class="section-heading"><div><h2>Explorá por categoría</h2></div><span class="heading-mark">ARUMA</span></div>
+      
+      <div class="category-grid">
+
+        <button class="category-card cat-yerba" data-filter="Yerbas">
+          <img src="assets/Yerba Mate Artisan Collection.png" alt="Yerbas" class="category-img">
+          <span>01</span>
+          <strong>Yerbas</strong>
+          <small>Clásicas, compuestas y saborizadas</small>
+          <b>↗</b>
+        </button>
+
+        <button class="category-card cat-mates" data-filter="Mates">
+          <img src="assets/Three Traditional Mate Gourds Displayed.png" alt="Mates" class="category-img">
+          <span>02</span>
+          <strong>Mates y Bombillas</strong> 
+          <small>Para encontrar tu compañero ideal</small>
+          <b>↗</b>
+        </button>        
+
+        <button class="category-card cat-yerba" data-filter="Cosmeticos">
+          <img src="assets/Natural ILEXYA Spa Collection.png" alt="Cosmeticos" class="category-img">
+          <span>03</span>
+          <strong>Cosmeticos</strong>
+          <small>Tu momento de cuidado personal</small>
+          <b>↗</b>
+        </button>        
+        
+        <button class="category-card cat-hierba" data-filter="Hierbas">
+          <img src="assets/Rustic Chamomile Herbal Blend.png" alt="Hierbas" class="category-img">
+          <span>04</span>
+          <strong>Hierbas</strong>
+          <small>El secreto natural de tu bienestar.</small>
+          <b>↗</b>
+        </button> 
+
+        <button class="category-card cat-termo" data-filter="Termos">
+          <img src="assets/Three Thermos Bottles on Teal Surface.png" alt="Termos" class="category-img">
+          <span>05</span>
+          <strong>Termos</strong>
+          <small>Tu agua siempre a punto.</small>
+          <b>↗</b>
+        </button>  
+        
+        <button class="category-card cat-accesorios" data-filter="Complementos">
+          <img src="assets/KATÜ Snacks and Mate Accessories.png" alt="Accessories" class="category-img">
+          <span>06</span>
+          <strong>Variedad</strong>
+          <small>Mas siempre es mejor.</small>
+          <b>↗</b>
+        </button>       
+
+      </div>
+
+    </section>
+
+    
+    <section class="products-section" id="destacados">
+
+      <div class="section-wrap">
+        
+        <div class="section-heading">
+          
+          <div>
+            <h2>Productos destacados</h2>
+          </div>
+          
+          <a class="text-link dark-link" href="#destacados" id="showAll">Ver todos 
+            <span>↗</span>
+          </a>
+        
+        </div>
+        
+        <div class="filter-row" id="filters">
+        
+          <button class="filter active" data-filter="Todos">Todos</button>
+        
+          <button class="filter" data-filter="Yerbas">Yerbas</button>
+        
+          <button class="filter" data-filter="Mates">Mates y Bombillas</button>
+        
+          <button class="filter" data-filter="Cosmeticos">Cosmeticos</button>
+        
+          <button class="filter" data-filter="Hierbas">Hierbas</button>
+        
+          <button class="filter" data-filter="Termos">Termos</button>
+
+          <button class="filter" data-filter="Complementos">Variedad</button>
+        
+        </div>
+        
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+        
+      
+      </div>
+     
+    </section>
+
+    
+    <section class="quote-section" id="nosotros">
+      
+      <div class="quote-inner">
+                
+        <h2>Tu mate
+          
+          <br>tu ritual
+        
+        </h2>
+
+        
+        <a class="button button-outline" href="#contacto">Conocé ARUMA</a>
+        
+      </div>
+    
+    </section>
+
+    
+
+    <section class="contact-section section-wrap" id="contacto">
+      <div>
+              
+        <h2>¿Buscás algo en particular?</h2>
+        
+        <p>Consultanos por productos, envios o recomendaciones para tu próximo equipo matero.</p>
+      
+      </div>
+
+
+	    <a class="button button-green" id="contactWhatsApp" href="https://wa.me/?text=Hola%2C%20quiero%20hacer%20una%20consulta%20a%20ARUMA." target="_blank" rel="noopener">Escribinos por WhatsApp 
+		  
+        <span>↗</span>
+	    
+      </a>
+    </section>
+  
+  </main>
+
+  <footer class="site-footer"><a class="footer-brand" href="#inicio">ARUMA <span>BOUTIQUE DEL MATE</span></a><small>© <span id="year"></span> ARUMA. Todos los derechos reservados.</small></footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Carrito de compras" aria-hidden="true">
+    <div class="cart-head"><div><p class="eyebrow">TU SELECCIÓN</p><h2>Mi carrito</h2></div><button id="closeCart" class="close-button" aria-label="Cerrar carrito">×</button></div>
+    <div id="cartItems" class="cart-items"><p class="empty-cart">Todavía no agregaste productos.</p></div>
+    <div class="cart-bottom"><div class="cart-total"><span>Total estimado</span><strong id="cartTotal">$0</strong></div><button class="button button-green checkout" id="checkout">Enviar pedido por WhatsApp</button><small>El pedido se confirma con el local. Los precios de esta demo son ilustrativos.</small></div>
+  </aside>
+  <script src="script.js"></script>
+</body>
+</html>
